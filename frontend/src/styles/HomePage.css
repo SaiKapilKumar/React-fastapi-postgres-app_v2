@@ -1,0 +1,56 @@
+/* Overall container styling */
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  }
+  
+  /* Glass card styling */
+  .glass-card {
+    background: rgba(72, 72, 72, 0.2); /* Greyish background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 3rem; /* Increased padding inside the card */
+    text-align: center;
+    width: 450px; /* Increased width */
+    height: auto; /* Let the height adjust dynamically */
+  }
+  
+  /* Heading styling */
+  .glass-card h1 {
+    color: #ffffff; /* White text */
+    margin-bottom: 2.5rem; /* More space below the heading */
+    font-size: 2rem; /* Slightly larger heading */
+    letter-spacing: 1.5px;
+  }
+  
+  /* Navigation list styling */
+  .nav-list {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 40px; /* Increase gap between list items */
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Link styling */
+  .nav-link {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 1.3rem; /* Slightly larger text */
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.8rem 1.5rem; /* Padding for larger buttons */
+    border-radius: 12px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.25); /* Lighter on hover */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Softer shadow on hover */
+  }
